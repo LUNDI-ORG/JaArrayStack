@@ -11,10 +11,12 @@ import java.util.Stack;
         Array ss = new Array(1);
         ss.set(0, "Sakhumzi Chutshela");
         System.out.println(ss.get(0));
-        System.out.println(as.size());
+        System.out.println(ss.size());
         as.add(3, "Akhona");
+        System.out.println(as.get(3));
         as.remove(3);
         as.resize();
+        System.out.println(as.get(3));
         
     
 }
